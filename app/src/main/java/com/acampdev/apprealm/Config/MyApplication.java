@@ -1,4 +1,4 @@
-package com.acampdev.apprealm;
+package com.acampdev.apprealm.Config;
 
 import android.app.Application;
 

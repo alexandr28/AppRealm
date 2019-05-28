@@ -12,6 +12,8 @@ import com.acampdev.apprealm.Models.Item;
 
 import java.util.UUID;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import io.realm.Realm;
 import io.realm.RealmAsyncTask;
 import io.realm.RealmQuery;
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 final String id= UUID.randomUUID().toString();
                 realmAsyncTask= realm.executeTransactionAsync(new Realm.Transaction() {
                                                                   @Override
+                                                                  @ParametersAreNonnullByDefault
                                                                   public void execute(Realm realm) {
                                                                       Item item = realm.createObject(Item.class);
                                                                       item.setID(id);
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                                                                   }
                                                               }, new Realm.Transaction.OnError() {
                                                                   @Override
+                                                                  @ParametersAreNonnullByDefault
                                                                   public void onError(Throwable error) {
                                                                       Toast.makeText(getApplicationContext(), "Error info", Toast.LENGTH_SHORT).show();
                                                                   }
