@@ -1,6 +1,5 @@
 package com.acampdev.apprealm;
 
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,9 +11,6 @@ import android.widget.Toast;
 import com.acampdev.apprealm.Models.Item;
 
 import java.util.UUID;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 import io.realm.Realm;
 import io.realm.RealmAsyncTask;
