@@ -1,5 +1,6 @@
 package com.acampdev.apprealm;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ActionBar actionBar= getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.appbar_backgroung));
         realm= Realm.getDefaultInstance();
         name=findViewById(R.id.textName);
         age=findViewById(R.id.txtAge);
