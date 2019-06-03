@@ -5,4 +5,5 @@
     <color name="colorAccent">#FFFEFF</color>
     <color name="splashBackPrimary">#424B88</color>
     <color name="splashBackEnd">#F4AA95</color>
+    <color name="colorGray">#989898</color>
 </resources>

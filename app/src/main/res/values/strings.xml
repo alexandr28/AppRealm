@@ -5,4 +5,25 @@
     <string name="save">Save</string>
     <string name="view_data">View Data</string>
     <string name="logo">Logo de realm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_end_sesion">Image end sesion</string>
+    <string name="add_personas">Registro de Personas</string>
+    <string name="txtnameLastname">Nombre y Apellido</string>
+    <string name="dni">D.N.I</string>
+    <string name="address">Address</string>
+    <string name="phone">Celular</string>
+    <string name="registar">Registar</string>
+    <string name="login">Login</string>
+    <string name="register">register</string>
+
+    <!-- String Array-->
+    <string-array name="estadoCivil">
+        <item>Estado Civil</item>
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
 </resources>
