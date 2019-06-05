@@ -20,6 +20,10 @@
     <string name="account">Create New Account</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="repassword">Re Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
 
     <!-- String Array-->
     <string-array name="estadoCivil">
