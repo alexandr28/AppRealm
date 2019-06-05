@@ -15,8 +15,11 @@
     <string name="address">Address</string>
     <string name="phone">Celular</string>
     <string name="registar">Registar</string>
-    <string name="login">Login</string>
+    <string name="login">Sign in</string>
     <string name="register">register</string>
+    <string name="account">Create New Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 
     <!-- String Array-->
     <string-array name="estadoCivil">
